@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' -->
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"> Portfolio</a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Skill</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me </h3>
+            <h1>Anurag Anand</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p> I'm a Software Developer with extensive exprience for over 2 years.
+                <br> expertise is to create and website design,Frontend design and programming
+            </p>
+            <div class="home-sci">
+                <a href="#"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAQlJREFUaEPtl2EOwiAMhbuTOU+mnsx5MrXJSPhRCG3BFff4tRji+t77KN1Ck69l8voJAo5OEAmcJYE7EV12sWsmetufH0SUnlWejEaIC781VHSNKOD5LSp3u6YjnIBW55OocALeDdjkW0IJYGwYH80KJaCGT+o2po4jOTKiC9UOr9npUpy/FMCus4CuCwIEO0sIIYGjD3G4BLjfS3NObXwotU/z4fYcYsuF1b0bRhDgQgsCOtxK0yfA8xHPT6blQYhfKL249AXGTr+EKvl383DnFSC5hptYwxISwDCn4UXYC4SAEBByOgCEnAaiCwEhIOR04B8R6m9J5R9HdCEI0DiABDRujdg7fQIffyhLMbkCEtYAAAAASUVORK5CYII="/></a>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAcBJREFUaEPtmEtKBDEQhr/ZC6Ibr6AgrsStehHdqog38AW6EQQ3egC9h4+1uBDxIiKoK+2SbghtksoYSdKSwCx6Oun8X/3VVZkZMfAxGrh+KkBuB/+9AxPAPDAHfALPwBPwnjvy3f4+B6Yb0fvATk/sSXN9ALyVAOECmASOgG2HSIHYAz5yQ7gAloFbRdwi8FAqwCZwoYhbA65KBdgCzhVx68BlqQCrwLUibgm4LxVAKtAxsOEQeArsllCJfGV0pi2j8j6Y46z9/iV39GV/rRNPAQvArNHIHoHXEsSHAJSi06lDc2DQACuK+n6jG2e+zJWPNExz3LUXclQJGj4HbtpNbA8S8VJqzSGbytlJm+97rrn2sLlQQVIDhIrvQFSIlAAiSkszm3vitPNclgogKJ8D0u/HlCEAiGinCzkBJC1CU8r5LqQGENEixsxpX/XqUsZW9b7vpQZw7adBFAGglUT508A3rPApHfCWw6Yraz0iO4B27tLSqAKY+TnuWUgrGHK/OtCvAH95Gq0OuHpWyjJaq5Cty1UHjKj8qgzGrq8OxEYwdn11IDaCseu12hzzYzzJ2gqQJMyeTaoD1YHICHwBZhCMMfNlTp0AAAAASUVORK5CYII="/></a>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAkpJREFUaEPtmVlOA0EMRJOTAScDTgacDDAaS43HdpV7mSEo/CAlvdRz2b3lernxv+uN67/cAc52cKYDjxvMcwOln71vn31s/19mgc8AEJEiWsVWtL1+Nx6CGQGQidtoV4Tbtt0gPQAjEUeQZZAqwMyoRzAliArAEeIVioZgAY4UrxCycj2hnGMAzhBPO4EAIvFisURICxoFKvpe9wcZLxorTScE8BnMLNbq5NLEA22/lzZ2n7DC5Pu3YL5QZwaQpU7Uz+68np6sTRSw0IUMIBpMRCHnelMqm9O6/jNHJAQVrjtYr+qmXwbgrkp/CSCrAWEsAWSRoDeZDkekiLND4c55z4Gz0kdXqmglku+HAajdsSPybZfMhd38VQdWpo9CZBlAAWQROAIgK+ZhgFXLZ5tCaDX6lTVeCp3tAFpEhgCOKOJ/DTBcA+5aPLhs2u6lTdSrAVREK9MIpc9uFYzOQlkUVrmAAkfvxNIQnUmkzcw9gRHvnp6zi0l7JtHbFbpVVcuh8sbkBoy90LR5H10f2XfP9u5beY50tVaulC1ElGJMgTPpaZ3sulJ6tdAK9AqdqQs231uIrkt9dD7X85AI0XTQGoEPUVuf7MxPR5+9nNucZ9IEFTNaprU/dJR9XbAQcGBAwABQc7AAosdbffSFTvXax6yIAwFQ4tkUakWgrZ4NSOm8k7nJTmgvHNFPSux4HoC4Zx1FtTT0wua50QtAp4wlYifMIqE/0j0w7/nbQNJH2pcjvgIA2ryywQwHVuqDY98BYIgWN7h5B74AeFmTMe34xmMAAAAASUVORK5CYII="/></a>
+                <a href=""><img src="4.png"/></a>
+                
+
+            </div>
+            <a href="#" class="btn-box"> More About Me</a>
+
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+    
+</body>
+</html>
